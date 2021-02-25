@@ -5,7 +5,7 @@ on:
   schedule: # 触发机制为定时任务 
     #- cron: "*/60 * * * *" # 每小时自动触
     #- cron: "*/60 * * * *" # 每小时自动触发
-   every day 11:13
+   every day 11:46
 jobs:
   autosend:
     runs-on: ubuntu-latest # 运行环境为最新的Ubuntu
